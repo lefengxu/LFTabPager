@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		901A645D20923AC10007D40F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 901A645C20923AC10007D40F /* AppDelegate.m */; };
+		901A646020923AC10007D40F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 901A645F20923AC10007D40F /* ViewController.m */; };
+		901A646320923AC10007D40F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901A646120923AC10007D40F /* Main.storyboard */; };
+		901A646520923AC10007D40F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 901A646420923AC10007D40F /* Assets.xcassets */; };
+		901A646820923AC10007D40F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901A646620923AC10007D40F /* LaunchScreen.storyboard */; };
+		901A646B20923AC10007D40F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 901A646A20923AC10007D40F /* main.m */; };
+		908DCFE920923E750079EACF /* LFPagerTabBar.h in Sources */ = {isa = PBXBuildFile; fileRef = 908DCFE520923E620079EACF /* LFPagerTabBar.h */; };
+		908DCFEA20923E750079EACF /* LFPagerTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 908DCFE620923E620079EACF /* LFPagerTabBar.m */; };
+		908DCFEB20923E750079EACF /* LFTabPagerViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 908DCFE720923E620079EACF /* LFTabPagerViewController.h */; };
+		908DCFEC20923E750079EACF /* LFTabPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 908DCFE820923E620079EACF /* LFTabPagerViewController.m */; };
+		908DCFFA20923EF70079EACF /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 908DCFF620923EF70079EACF /* TableViewController.m */; };
+		908DCFFB20923EF70079EACF /* PagerSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 908DCFF820923EF70079EACF /* PagerSource.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		901A645820923AC10007D40F /* LFTabPager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFTabPager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		901A645B20923AC10007D40F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		901A645C20923AC10007D40F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		901A645E20923AC10007D40F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		901A645F20923AC10007D40F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		901A646220923AC10007D40F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		901A646420923AC10007D40F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		901A646720923AC10007D40F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		901A646920923AC10007D40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		901A646A20923AC10007D40F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		908DCFE520923E620079EACF /* LFPagerTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFPagerTabBar.h; sourceTree = "<group>"; };
+		908DCFE620923E620079EACF /* LFPagerTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFPagerTabBar.m; sourceTree = "<group>"; };
+		908DCFE720923E620079EACF /* LFTabPagerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFTabPagerViewController.h; sourceTree = "<group>"; };
+		908DCFE820923E620079EACF /* LFTabPagerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFTabPagerViewController.m; sourceTree = "<group>"; };
+		908DCFF620923EF70079EACF /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		908DCFF720923EF70079EACF /* PagerSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PagerSource.h; sourceTree = "<group>"; };
+		908DCFF820923EF70079EACF /* PagerSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagerSource.m; sourceTree = "<group>"; };
+		908DCFF920923EF70079EACF /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		901A645520923AC10007D40F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		901A644F20923AC10007D40F = {
+			isa = PBXGroup;
+			children = (
+				901A645A20923AC10007D40F /* LFTabPager */,
+				901A645920923AC10007D40F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		901A645920923AC10007D40F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				901A645820923AC10007D40F /* LFTabPager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		901A645A20923AC10007D40F /* LFTabPager */ = {
+			isa = PBXGroup;
+			children = (
+				908DCFE420923E620079EACF /* LFTabPagerModel */,
+				901A645B20923AC10007D40F /* AppDelegate.h */,
+				901A645C20923AC10007D40F /* AppDelegate.m */,
+				901A645E20923AC10007D40F /* ViewController.h */,
+				901A645F20923AC10007D40F /* ViewController.m */,
+				908DCFF720923EF70079EACF /* PagerSource.h */,
+				908DCFF820923EF70079EACF /* PagerSource.m */,
+				908DCFF920923EF70079EACF /* TableViewController.h */,
+				908DCFF620923EF70079EACF /* TableViewController.m */,
+				901A646120923AC10007D40F /* Main.storyboard */,
+				901A646420923AC10007D40F /* Assets.xcassets */,
+				901A646620923AC10007D40F /* LaunchScreen.storyboard */,
+				901A646920923AC10007D40F /* Info.plist */,
+				901A646A20923AC10007D40F /* main.m */,
+			);
+			path = LFTabPager;
+			sourceTree = "<group>";
+		};
+		908DCFE420923E620079EACF /* LFTabPagerModel */ = {
+			isa = PBXGroup;
+			children = (
+				908DCFE520923E620079EACF /* LFPagerTabBar.h */,
+				908DCFE620923E620079EACF /* LFPagerTabBar.m */,
+				908DCFE720923E620079EACF /* LFTabPagerViewController.h */,
+				908DCFE820923E620079EACF /* LFTabPagerViewController.m */,
+			);
+			path = LFTabPagerModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		901A645720923AC10007D40F /* LFTabPager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 901A646E20923AC10007D40F /* Build configuration list for PBXNativeTarget "LFTabPager" */;
+			buildPhases = (
+				901A645420923AC10007D40F /* Sources */,
+				901A645520923AC10007D40F /* Frameworks */,
+				901A645620923AC10007D40F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFTabPager;
+			productName = LFTabPager;
+			productReference = 901A645820923AC10007D40F /* LFTabPager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		901A645020923AC10007D40F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = lefengxu;
+				TargetAttributes = {
+					901A645720923AC10007D40F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 901A645320923AC10007D40F /* Build configuration list for PBXProject "LFTabPager" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 901A644F20923AC10007D40F;
+			productRefGroup = 901A645920923AC10007D40F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				901A645720923AC10007D40F /* LFTabPager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		901A645620923AC10007D40F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901A646820923AC10007D40F /* LaunchScreen.storyboard in Resources */,
+				901A646520923AC10007D40F /* Assets.xcassets in Resources */,
+				901A646320923AC10007D40F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		901A645420923AC10007D40F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908DCFE920923E750079EACF /* LFPagerTabBar.h in Sources */,
+				908DCFEA20923E750079EACF /* LFPagerTabBar.m in Sources */,
+				908DCFEB20923E750079EACF /* LFTabPagerViewController.h in Sources */,
+				908DCFEC20923E750079EACF /* LFTabPagerViewController.m in Sources */,
+				901A646020923AC10007D40F /* ViewController.m in Sources */,
+				908DCFFB20923EF70079EACF /* PagerSource.m in Sources */,
+				901A646B20923AC10007D40F /* main.m in Sources */,
+				901A645D20923AC10007D40F /* AppDelegate.m in Sources */,
+				908DCFFA20923EF70079EACF /* TableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		901A646120923AC10007D40F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				901A646220923AC10007D40F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		901A646620923AC10007D40F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				901A646720923AC10007D40F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		901A646C20923AC10007D40F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		901A646D20923AC10007D40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		901A646F20923AC10007D40F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFTabPager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xulefeng.LFTabPager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		901A647020923AC10007D40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LFTabPager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xulefeng.LFTabPager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		901A645320923AC10007D40F /* Build configuration list for PBXProject "LFTabPager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				901A646C20923AC10007D40F /* Debug */,
+				901A646D20923AC10007D40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		901A646E20923AC10007D40F /* Build configuration list for PBXNativeTarget "LFTabPager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				901A646F20923AC10007D40F /* Debug */,
+				901A647020923AC10007D40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 901A645020923AC10007D40F /* Project object */;
+}
