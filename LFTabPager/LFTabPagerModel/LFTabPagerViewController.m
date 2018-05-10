@@ -2,6 +2,10 @@
 //  LFTabPagerViewController.m
 //  LFTabPager
 //
+//  引用参考：https://github.com/NazgulLee/LJTabPager
+//
+//  源代码区：https://github.com/lefengxu/LFTabPager
+//
 //  Created by 许乐峰 on 2018/4/8.
 //  Copyright © 2018年 xulefeng. All rights reserved.
 //
