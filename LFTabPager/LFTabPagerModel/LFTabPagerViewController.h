@@ -22,5 +22,9 @@
 @property (nonatomic, strong) UIColor *tabBarBKColor;
 @property (nonatomic, weak) id<LFTabPagerViewControllerSource> vcsSource;
 @property (nonatomic, readonly) NSIndexPath *selectedIndexPath;
+@property (nonatomic, strong) UIColor *selectedLineColor;
+@property (nonatomic, strong) UIColor *unSelectedColor;
+@property (nonatomic, strong) UIColor *selectedColor;
+@property (nonatomic, assign) CGFloat selectedLineWidth;
 
 @end

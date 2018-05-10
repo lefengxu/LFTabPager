@@ -26,6 +26,10 @@
     LFTabPagerViewController *pagerVC = [[LFTabPagerViewController alloc] init];
     _source = [[PagerSource alloc] init];
     pagerVC.vcsSource = _source;
+    pagerVC.selectedLineColor = [UIColor orangeColor];
+    pagerVC.selectedColor = [UIColor orangeColor];
+    pagerVC.unSelectedColor = [UIColor blackColor];
+    pagerVC.selectedLineWidth = 11;
     UINavigationController *rootVC = [[UINavigationController alloc] initWithRootViewController:pagerVC];
     pagerVC.edgesForExtendedLayout = UIRectEdgeNone;
     self.window.rootViewController = pagerVC;

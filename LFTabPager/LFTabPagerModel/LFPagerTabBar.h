@@ -24,6 +24,7 @@
 @property (nonatomic, strong) UIColor *unSelectedColor;
 @property (nonatomic, strong) UIColor *selectedColor;
 @property (nonatomic, assign) NSIndexPath *selectedIndexPath;
+@property (nonatomic, assign) CGFloat selectedLineWidth;
 @property (nonatomic, assign) CGFloat pagerContentOffsetX;
 
 /// 下面的scrollView刚开始滑动时，记录tabBar的contentOffset作为初始值，当前选中的tabItem后面第二个tabItem加spacing／2的位置减去屏幕宽度作为向右滑结束时tabBar至少要有的contentOffset值，当前选中的tabItem前面第二个tabItem减spacing/2的位置作为向左滑结束时tabBar至多有的contentOffset值，这样保证向右滑动结束时在选中的tabItem的右边还能看到其他tabItem，或者向左滑动结束时在在选中的tabItem的左边还能看到其他tabItem

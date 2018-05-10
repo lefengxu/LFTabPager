@@ -303,6 +303,28 @@
 //    }
 }
 #pragma mark - Setter
+- (void)setSelectedColor:(UIColor *)selectedColor {
+    _selectedColor = selectedColor;
+    self.topTabBar.selectedColor = selectedColor;
+}
+
+- (void)setUnSelectedColor:(UIColor *)unSelectedColor {
+    _unSelectedColor = unSelectedColor;
+    self.topTabBar.unSelectedColor = unSelectedColor;
+}
+
+- (void)setSelectedLineColor:(UIColor *)selectedLineColor {
+    _selectedLineColor = selectedLineColor;
+    self.topTabBar.selectedLineColor = selectedLineColor;
+}
+
+- (void)setSelectedIndexPath:(NSIndexPath *)selectedIndexPath {
+    self.topTabBar.selectedIndexPath = selectedIndexPath;
+}
+
+- (void)setSelectedLineWidth:(CGFloat)selectedLineWidth {
+    self.topTabBar.selectedLineWidth = selectedLineWidth;
+}
 #pragma mark - Getter
 - (NSIndexPath *)selectedIndexPath {
     return self.topTabBar.selectedIndexPath;
@@ -320,7 +342,6 @@
 - (UIScrollView *)scrollView {
     if (!_scrollView) {
         _scrollView = [[UIScrollView alloc] init];
-//        _scrollView.tag = CONTENT_SCROLLVIEW;
         _scrollView.delegate = self;
         _scrollView.pagingEnabled = YES;
         _scrollView.bounces = NO;

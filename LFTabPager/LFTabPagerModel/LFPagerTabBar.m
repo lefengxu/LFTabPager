@@ -235,11 +235,11 @@
     if (animated) {
         [UIView animateWithDuration:kAnimateDuration delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
             self.selectedLine.center = CGPointMake(endCenterX, self.selectedLine.center.y);
-            self.selectedLine.bounds = CGRectMake(0, 0, endLineWidth, self.selectedLine.bounds.size.height);
+            self.selectedLine.bounds = CGRectMake(0, 0, self.selectedLineWidth, self.selectedLine.bounds.size.height);
         } completion:NULL];
     } else {
         self.selectedLine.center = CGPointMake(endCenterX, self.selectedLine.center.y);
-        self.selectedLine.bounds = CGRectMake(0, 0, endLineWidth, self.selectedLine.bounds.size.height);
+        self.selectedLine.bounds = CGRectMake(0, 0, self.selectedLineWidth, self.selectedLine.bounds.size.height);
     }
 }
 
@@ -291,8 +291,8 @@
             UIImage *image = [[UIImage imageNamed:@"list_menu_btn_normal_open"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
             [tabItem setImage:image forState:UIControlStateNormal];
             tabItem.tintColor = self.unSelectedColor;
-            tabItem.imageEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 10);
-            tabItem.titleEdgeInsets = UIEdgeInsetsMake(0, 10, 0, 0);
+            tabItem.imageEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 20);
+            tabItem.titleEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 0);
             tabItem.transform = CGAffineTransformMakeScale(-1.0, 1.0);
             tabItem.titleLabel.transform = CGAffineTransformMakeScale(-1.0, 1.0);
             tabItem.imageView.transform = CGAffineTransformMakeScale(-1.0, 1.0);
@@ -514,7 +514,7 @@
     CGFloat leftTabItemWidth = ((UIButton *)self.tabItemList[position]).bounds.size.width;
     CGFloat rightTabItemWidth = ((UIButton *)self.tabItemList[position + 1]).bounds.size.width;
     CGFloat width = leftTabItemWidth + scale * (rightTabItemWidth - leftTabItemWidth); //计算selectedLine的宽度
-    self.selectedLine.bounds = CGRectMake(0, 0, width, self.selectedLine.bounds.size.height);
+    self.selectedLine.bounds = CGRectMake(0, 0, self.selectedLineWidth, self.selectedLine.bounds.size.height);
     // scale在0.1到0.9之间才做出改变，防止快速滑动下面的scrollView，selectedLine掠过某个tabItem时scale从0突变为1或者从1突变为0造成tabBar闪烁
     if (0.1 < scale && scale < 0.9) {
         CGFloat newScale = scale * 1 / (0.9 - 0.1) - 0.1 / (0.9 - 0.1);//平滑scale的变化
@@ -531,6 +531,11 @@
 //    } else {
 //        self.scrollOrientation = SCROLL_ORIENTATION_NONE;
 //    }
+}
+
+- (void)setSelectedLineWidth:(CGFloat)selectedLineWidth {
+    _selectedLineWidth = selectedLineWidth;
+    [self setNeedsLayout];
 }
 
 #pragma mark - Lazy
